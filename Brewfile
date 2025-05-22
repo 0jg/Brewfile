@@ -45,6 +45,7 @@ brew "ollama" # Offline LLM
 brew "bottom" # System monitoring
 brew "zoxide" # Navigate filesystem faster
 brew "lsd" # Colourful ls
+brew "fzf"
 
 # Mac App Store Applications
 mas "Telegram", id: 747648890
