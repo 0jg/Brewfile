@@ -2,16 +2,17 @@ tap "oven-sh/bun"
 
 # Core Utilities
 brew "git"
-brew "gh"
+brew "gh" # GitHub CLI
 
-# Python & Rust Toolchain
+# Toolchains
 brew "python@3.12"
 brew "rustup-init"
-brew "uv"
+brew "uv" # Python package manager
+brew "solidity" # Ethereum smart contracts
 
 # Node.js & Front-End Development
 brew "node"
-brew "bun"
+brew "bun" # Package manager
 
 # Research
 brew "scipy"
@@ -26,8 +27,8 @@ cask "font-sf-pro"
 cask "font-sf-mono"
 
 # Productivity
-cask "warp"
-cask "linear-linear"
+cask "warp" # Better terminal
+cask "linear-linear" # Issue manager
 
 # Code Editor
 cask "cursor"
@@ -37,8 +38,13 @@ cask "sketch"
 
 # AI tools
 cask "claude"
-cask "chatgpt"
-brew "ollama"
+cask "chatgpt" 
+brew "ollama" # Offline LLM
+
+# CLI tools 
+brew "bottom" # System monitoring
+brew "zoxide" # Navigate filesystem faster
+brew "lsd" # Colourful ls
 
 # Mac App Store Applications
 mas "Telegram", id: 747648890
