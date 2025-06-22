@@ -1,5 +1,4 @@
 tap "oven-sh/bun"
-tap "finnvoor/tools"
 
 # Core Utilities
 brew "git"
@@ -16,7 +15,6 @@ brew "llvm" # Required for Rust
 brew "rust" # Run "brew info rust" for instructions on linking rustup with brew
 brew "uv" # Python package manager
 brew "ruff" # Python linter
-brew "solidity" # Ethereum smart contracts
 
 # Node.js & Front-End Development
 brew "node"
@@ -28,7 +26,6 @@ brew "jupyterlab"
 cask "mactex-no-gui"
 cask "latexit"
 cask "zotero"
-cask "obsidian"
 cask "bibdesk"
 
 # Fonts
@@ -45,12 +42,9 @@ cask "font-stix-two-math"
 # Productivity
 cask "warp" # Better terminal
 cask "linear-linear" # Issue manager
-brew "finnvoor/tools/yap" # On-device speech transcription
-brew "thefuck" # Helps when you mistype something in the terminal
 
 # Code Editors
 cask "cursor"
-cask "zed"
 
 # Design Tools
 cask "sketch"
@@ -60,14 +54,13 @@ cask "sf-symbols"
 cask "claude"
 cask "chatgpt" 
 brew "ollama" # Offline LLM
+brew "ncdu" # Storage space analysis
 
 # CLI tools 
 brew "bottom" # System monitoring
 brew "zoxide" # Navigate filesystem faster
-brew "lsd" # Colourful ls
 brew "fzf" # File finder
 cask "openinterminal" # Finder button, opens directory in terminal
-brew "openfortivpn"
 
 # Misc
 cask "protonvpn"
@@ -85,4 +78,3 @@ mas "1Blocker", id: 1365531024
 mas "Hush", id: 1544743900
 mas "Vinegar", id: 1591303229
 mas "Coupert", id: 1531442936
-mas "Amphetamine", id: 937984704
