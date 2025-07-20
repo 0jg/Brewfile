@@ -7,6 +7,10 @@ brew "vercel-cli"
 brew "git-filter-repo" # Re-write git repo history 
 brew "gnupg" # GPG key
 brew "pinentry-mac"
+brew "openfortivpn"
+cask "protonvpn"
+brew "sshpass"
+brew "ffmpeg"
 
 # Toolchains
 brew "python@3.12"
@@ -27,6 +31,7 @@ cask "mactex-no-gui"
 cask "latexit"
 cask "zotero"
 cask "bibdesk"
+cask "skim"
 
 # Fonts
 cask "font-geist"
@@ -38,6 +43,7 @@ cask "font-sf-compact"
 cask "font-libre-baskerville"
 cask "font-stix-two-text"
 cask "font-stix-two-math"
+cask "font-jetbrains-mono-nerd-font"
 
 # Productivity
 cask "warp" # Better terminal
@@ -47,20 +53,16 @@ cask "linear-linear" # Issue manager
 cask "cursor"
 
 # Design Tools
-cask "sketch"
+cask "sketch@beta"
 cask "sf-symbols"
-
-# AI tools
-cask "claude"
-cask "chatgpt" 
-brew "ollama" # Offline LLM
-brew "ncdu" # Storage space analysis
 
 # CLI tools 
 brew "bottom" # System monitoring
 brew "zoxide" # Navigate filesystem faster
 brew "fzf" # File finder
 cask "openinterminal" # Finder button, opens directory in terminal
+brew "neofetch" # System info
+brew "ncdu" # Storage space analysis
 
 # Misc
 cask "protonvpn"
