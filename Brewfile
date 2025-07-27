@@ -75,8 +75,9 @@ brew "pdf2svg"
 # Mac App Store Applications
 mas "Telegram", id: 747648890
 mas "WhatsApp", id: 310633997
-mas "Darkroom", id: 953286746
-mas "1Blocker", id: 1365531024
-mas "Hush", id: 1544743900
-mas "Vinegar", id: 1591303229
-mas "Coupert", id: 1531442936
+mas "Darkroom", id: 953286746 # Photo editor
+mas "1Blocker", id: 1365531024 # Block ads
+mas "Hush", id: 1544743900 # Block cookie/other annoyances
+mas "Vinegar", id: 1591303229 # Native video player for YouTube
+mas "Coupert", id: 1531442936 # Deal finder
+mas "Pause", id: 1599313358 # 20 second break every 20 mins
