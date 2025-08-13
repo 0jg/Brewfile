@@ -44,13 +44,14 @@ cask "font-libre-baskerville"
 cask "font-stix-two-text"
 cask "font-stix-two-math"
 cask "font-jetbrains-mono-nerd-font"
+cask "font-libertinus-math"
 
 # Productivity
 cask "warp" # Better terminal
 cask "linear-linear" # Issue manager
 
 # Code Editors
-cask "cursor"
+cask "visual-studio-code"
 
 # Design Tools
 cask "sketch@beta"
@@ -63,11 +64,13 @@ brew "fzf" # File finder
 cask "openinterminal" # Finder button, opens directory in terminal
 brew "neofetch" # System info
 brew "ncdu" # Storage space analysis
+cask "claude-code"
 
 # Misc
 cask "protonvpn"
 cask "syntax-highlight" # Adds QuickLook support for source files
 cask "mountain-duck" # Remote server access
+cask "ollama-app"
 brew "ykman" # Yubikey CLI manager
 brew "ghostscript" # Interpreter for PostScript and PDF
 brew "pdf2svg"
@@ -81,3 +84,4 @@ mas "Hush", id: 1544743900 # Block cookie/other annoyances
 mas "Vinegar", id: 1591303229 # Native video player for YouTube
 mas "Coupert", id: 1531442936 # Deal finder
 mas "Pause", id: 1599313358 # 20 second break every 20 mins
+mas "Tailscale", id: 1475387142 # Remote access
