@@ -65,6 +65,7 @@ cask "openinterminal" # Finder button, opens directory in terminal
 brew "neofetch" # System info
 brew "ncdu" # Storage space analysis
 cask "claude-code"
+brew "gemini-cli"
 
 # Misc
 cask "protonvpn"
@@ -74,6 +75,7 @@ cask "ollama-app"
 brew "ykman" # Yubikey CLI manager
 brew "ghostscript" # Interpreter for PostScript and PDF
 brew "pdf2svg"
+cask "parallels"
 
 # Mac App Store Applications
 mas "Telegram", id: 747648890
