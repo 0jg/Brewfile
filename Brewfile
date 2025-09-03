@@ -1,39 +1,51 @@
-tap "oven-sh/bun"
+# -----------------------
+# Taps
+# -----------------------
+tap "oven-sh/bun"                  # Bun package manager
+tap "withgraphite/tap"             # Graphite CLI
 
+# -----------------------
 # Core Utilities
-brew "git"
-brew "gh" # GitHub CLI
-brew "vercel-cli" 
-brew "git-filter-repo" # Re-write git repo history 
-brew "gnupg" # GPG key
-brew "pinentry-mac"
-brew "openfortivpn"
-cask "protonvpn"
-brew "sshpass"
-brew "ffmpeg"
+# -----------------------
+brew "git"                         # Version control
+brew "gh"                          # GitHub CLI
+brew "withgraphite/tap/graphite"   # Graphite PR tool
+brew "vercel-cli"                  # Vercel deployment CLI
+brew "git-filter-repo"             # Git history rewriting
+brew "gnupg"                       # GPG key management
+brew "pinentry-mac"                # Pinentry GUI for GPG
+brew "openfortivpn"                # Fortinet VPN client
+brew "sshpass"                     # Non-interactive ssh password auth
+brew "ffmpeg"                      # Multimedia framework
 
-# Toolchains
-brew "python@3.12"
-brew "rustup-init"
-brew "llvm" # Required for Rust
-brew "rust" # Run "brew info rust" for instructions on linking rustup with brew
-brew "uv" # Python package manager
-brew "ruff" # Python linter
+cask "protonvpn"                   # Proton VPN client
 
-# Node.js & Front-End Development
-brew "node"
-brew "bun" # Package manager
+# -----------------------
+# Toolchains / Programming Languages
+# -----------------------
+brew "python@3.12"                 # Python 3.12
+brew "uv"                          # Fast Python package manager
+brew "ruff"                        # Python linter
+brew "rustup-init"                 # Rust toolchain installer
+brew "llvm"                        # LLVM (required for Rust)
+brew "rust"                        # Rust (linked with rustup if needed)
+brew "node"                        # Node.js runtime
+brew "bun"                         # Bun runtime + package manager
 
-# Research
-brew "scipy"
-brew "jupyterlab"
-cask "mactex-no-gui"
-cask "latexit"
-cask "zotero"
-cask "bibdesk"
-cask "skim"
+# -----------------------
+# Research / Academic Tools
+# -----------------------
+brew "scipy"                       # Scientific computing library
+brew "jupyterlab"                  # Jupyter notebooks
+cask "mactex-no-gui"               # TeX distribution without GUI apps
+cask "latexit"                     # LaTeX equation editor
+cask "zotero"                      # Reference manager
+cask "bibdesk"                     # BibTeX manager
+cask "skim"                        # PDF reader for research papers
 
+# -----------------------
 # Fonts
+# -----------------------
 cask "font-geist"
 cask "font-geist-mono"
 cask "font-new-york"
@@ -46,44 +58,47 @@ cask "font-stix-two-math"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-libertinus-math"
 
-# Productivity
-cask "warp" # Better terminal
-cask "linear-linear" # Issue manager
+# -----------------------
+# Productivity / Workflow
+# -----------------------
+cask "linear-linear"               # Linear issue manager
+cask "ollama-app"                  # Local LLM runner
+cask "syntax-highlight"            # QuickLook syntax highlighting
 
-# Code Editors
-cask "visual-studio-code"
+# -----------------------
+# Code Editors / IDEs
+# -----------------------
+cask "visual-studio-code"          # VS Code
 
+# -----------------------
 # Design Tools
-cask "sketch@beta"
-cask "sf-symbols"
+# -----------------------
+cask "sketch@beta"                 # Design tool
+cask "sf-symbols"                  # Apple SF Symbols app
 
-# CLI tools 
-brew "bottom" # System monitoring
-brew "zoxide" # Navigate filesystem faster
-brew "fzf" # File finder
-cask "openinterminal" # Finder button, opens directory in terminal
-brew "neofetch" # System info
-brew "ncdu" # Storage space analysis
-cask "claude-code"
-brew "gemini-cli"
+# -----------------------
+# CLI Tools / Enhancements
+# -----------------------
+brew "bottom"                      # System monitoring (htop-like)
+brew "zoxide"                      # Smarter directory navigation
+brew "fzf"                         # Fuzzy finder
+cask "openinterminal"              # Open folder in terminal (Finder button)
+brew "neofetch"                    # System info display
+brew "ncdu"                        # Disk usage analysis
+brew "gemini-cli"                  # Gemini CLI tool
+brew "ghostscript"                 # PostScript/PDF interpreter
+brew "pdf2svg"                     # Convert PDF pages to SVG
 
-# Misc
-cask "protonvpn"
-cask "syntax-highlight" # Adds QuickLook support for source files
-cask "mountain-duck" # Remote server access
-cask "ollama-app"
-brew "ykman" # Yubikey CLI manager
-brew "ghostscript" # Interpreter for PostScript and PDF
-brew "pdf2svg"
-cask "parallels"
+# -----------------------
+# Mac App Store Apps
+# -----------------------
+mas "Telegram", id: 747648890      # Messaging
+mas "WhatsApp", id: 310633997      # Messaging
+mas "Darkroom", id: 953286746      # Photo editor
+mas "1Blocker", id: 1365531024     # Ad/content blocker
+mas "Hush", id: 1544743900         # Block cookie nags
+mas "Vinegar", id: 1591303229      # Native YouTube player
+mas "Coupert", id: 1531442936      # Coupon/discount finder
+mas "Pause", id: 1599313358        # Microbreak reminders
+mas "Tailscale", id: 1475387142    # Secure remote access
 
-# Mac App Store Applications
-mas "Telegram", id: 747648890
-mas "WhatsApp", id: 310633997
-mas "Darkroom", id: 953286746 # Photo editor
-mas "1Blocker", id: 1365531024 # Block ads
-mas "Hush", id: 1544743900 # Block cookie/other annoyances
-mas "Vinegar", id: 1591303229 # Native video player for YouTube
-mas "Coupert", id: 1531442936 # Deal finder
-mas "Pause", id: 1599313358 # 20 second break every 20 mins
-mas "Tailscale", id: 1475387142 # Remote access
