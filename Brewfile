@@ -88,6 +88,7 @@ brew "ncdu"                        # Disk usage analysis
 brew "gemini-cli"                  # Gemini CLI tool
 brew "ghostscript"                 # PostScript/PDF interpreter
 brew "pdf2svg"                     # Convert PDF pages to SVG
+brew "tree"		  	   # Display directories as trees
 
 # -----------------------
 # Mac App Store Apps
