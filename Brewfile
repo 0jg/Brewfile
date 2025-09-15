@@ -5,6 +5,10 @@ tap "oven-sh/bun"                  # Bun package manager
 tap "withgraphite/tap"             # Graphite CLI
 
 # -----------------------
+# Temporary			   # Tools I may decide to use in the future
+# -----------------------
+
+# -----------------------
 # Core Utilities
 # -----------------------
 brew "git"                         # Version control
